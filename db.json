@@ -1,16 +1,39 @@
 {
-  "posts":[
+  "professores": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "nome": "Pedro",
+      "disciplina": "Português",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 2
+    },
+    {
+      "nome": "Braulio",
+      "disciplina": "Sociologia",
+      "perfil": "Professor",
+      "ativo": true,
+      "id": 5
+    },
+    {
+      "nome": "Arthur Astar",
+      "disciplina": "Programação",
+      "perfil": "Professor",
+      "ativo": true,
+      "id": 6
     }
   ],
-  "comments" : [
+  "alunos": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nome": "Jhonathan ",
+      "turma": "Turma 4",
+      "ativo": false,
+      "id": 1
+    },
+    {
+      "nome": "Verônica",
+      "turma": "Turma 6",
+      "ativo": true,
+      "id": 2
     }
   ]
 }
